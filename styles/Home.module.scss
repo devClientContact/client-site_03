@@ -24,15 +24,6 @@ $screen-xl-min: 1200px;
   }
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
-
 .mainContainer {
   display: grid;
   align-items: center;
@@ -41,9 +32,9 @@ $screen-xl-min: 1200px;
 .textContainer {
 	margin: 1rem;
 }
-.titleTextSmall {
+.titleText {
 	margin: auto;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .titleTextLarge {
 	margin: auto;
