@@ -29,30 +29,23 @@ $screen-xl-min: 1200px;
   align-items: center;
   justify-content: center;
 }
-.textContainer {
-	margin: 1rem;
-}
 .titleText {
 	margin: auto;
   font-size: 5rem;
 }
-.titleTextLarge {
-	margin: auto;
-  font-size: 10rem;
-}
-.linkListContainer {
+.gridContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   margin-top: 3rem;
   justify-items: center;
 }
-.linkList {
-  font-size: 3.3rem;
-}
-.paragraphText {
-	margin: auto;
-  font-size: 5rem;
+.gridItem {
+  display: grid;
+  width: 80%;
+  height: 30vh;
+  border: solid;
+  border-color: red;
 }
 
 @include sm {

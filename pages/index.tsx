@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import LandingPage from '@/components/LandingPage'
+import ItemGrid from '@/components/ItemGrid'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.scss'
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <>
           <LandingPage />
+          <ItemGrid />
         </>
       </main>
     </>
