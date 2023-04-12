@@ -1,5 +1,7 @@
 import Head from 'next/head'
-import LandingPage from '@/components/LandingPage'
+import Products from '@/components/Products'
+import ItemGrid from '@/components/ItemGrid'
+
 
 export default function Home() {
   return (
@@ -12,7 +14,7 @@ export default function Home() {
       </Head>
       <main>
         <>
-          <LandingPage />
+          <Products />
         </>
       </main>
     </>
