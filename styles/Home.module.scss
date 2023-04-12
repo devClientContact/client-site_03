@@ -29,9 +29,25 @@ $screen-xl-min: 1200px;
   align-items: center;
   justify-content: center;
 }
+.productsHeaderContainer {
+  display: flex;
+  margin: auto;
+  margin-top: 3rem;
+  width: 95%;
+  justify-content: start;
+}
 .titleText {
 	margin: auto;
   font-size: 5rem;
+}
+.headerText {
+	margin-top: auto;
+	margin-top: auto;
+  font-size: 4rem;
+}
+.headerTextBold {
+  @extend .headerText;
+  font-weight: bold;
 }
 .gridContainer {
   display: grid;

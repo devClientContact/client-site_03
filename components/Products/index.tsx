@@ -1,12 +1,12 @@
 import React from 'react'
-import SiteHeader from '@/components/SiteHeader'
+import ProductsHeader from '@/components/ProductsHeader'
 import ItemGrid from '@/components/ItemGrid'
 import styles from '../../styles/Home.module.scss'
 
 const Products = () => {
   return (
         <>
-          <SiteHeader />
+          <ProductsHeader />
           <ItemGrid />
         </>
   )
