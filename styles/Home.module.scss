@@ -34,7 +34,7 @@ $screen-xl-min: 1200px;
   margin: auto;
   margin-top: 3rem;
   width: 95%;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .titleText {
 	margin: auto;
@@ -42,10 +42,8 @@ $screen-xl-min: 1200px;
   font-size: 5rem;
 }
 .headerText {
-	margin-top: auto;
-	margin-top: auto;
-  padding: 1rem;
-  font-size: 4rem;
+	margin-top: 1rem;
+  font-size: 3rem;
 }
 .headerTextBold {
   @extend .headerText;
@@ -53,26 +51,39 @@ $screen-xl-min: 1200px;
 }
 .gridContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: auto;
-  margin-top: 3rem;
   justify-items: center;
 }
 .gridItem {
   display: grid;
-  width: 80%;
-  height: 30vh;
+  margin: 1rem;
+  width: 90%;
+  height: 80vh;
   border: solid;
   border-color: red;
 }
 
 @include sm {
+
 }
 
 @include md {
+  .headerText {
+    font-size: 3.5rem;
+  }
+  .gridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @include lg {
+  .headerText {
+    font-size: 4rem;
+  }
+  .gridContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @include xl {
