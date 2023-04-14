@@ -50,6 +50,9 @@ $screen-xl-min: 1200px;
   @extend .headerText;
   font-weight: bold;
 }
+.aboutText {
+  font-size: 4rem;
+}
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr;

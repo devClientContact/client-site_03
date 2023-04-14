@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Products from '@/components/Products'
-import ItemGrid from '@/components/ItemGrid'
-
 
 export default function Home() {
   return (
