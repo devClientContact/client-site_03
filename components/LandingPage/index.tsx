@@ -8,12 +8,16 @@ const LandingPage = () => {
       <p className={styles.titleText}>Julie W</p>
       <p className={styles.titleText}>Shop</p>
       <div className={styles.navbarContainer}>
-        <Link href='/products'>
-          <p className={styles.navText}>Products</p>
-        </Link>
-        <Link href='/about'>
-          <p className={styles.navText}>About</p>
-        </Link>
+        <div className={styles.navItem}>
+          <Link href='/products'>
+            <p className={styles.navText}>Products</p>
+          </Link>
+        </div>
+        <div className={styles.navItem}>
+          <Link href='/about'>
+            <p className={styles.navText}>About</p>
+          </Link>
+        </div>
       </div>
     </div>
   )

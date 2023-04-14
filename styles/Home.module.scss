@@ -61,6 +61,10 @@ $screen-xl-min: 1200px;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
 }
+.navItem {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr;
