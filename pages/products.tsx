@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import LandingPage from '@/components/LandingPage'
+import Products from '@/components/Products'
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <>
-          <LandingPage />
+          <Products />
         </>
       </main>
     </>
