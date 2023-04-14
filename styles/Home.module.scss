@@ -36,10 +36,14 @@ $screen-xl-min: 1200px;
   width: 95%;
   justify-content: flex-start;
 }
+.titleContainer {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
 .titleText {
   margin: auto;
-  margin-top: 3rem;
-  font-size: 5rem;
+  font-size: 7rem;
 }
 .headerText {
   margin-top: 1rem;
