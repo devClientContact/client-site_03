@@ -43,6 +43,7 @@ $screen-xl-min: 1200px;
 }
 .headerText {
 	margin-top: 1rem;
+  margin-right: 1rem;
   font-size: 3rem;
 }
 .headerTextBold {
@@ -79,6 +80,7 @@ $screen-xl-min: 1200px;
 
 @include lg {
   .headerText {
+    margin-right: 2rem;
     font-size: 4rem;
   }
   .gridContainer {
