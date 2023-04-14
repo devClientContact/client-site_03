@@ -37,12 +37,12 @@ $screen-xl-min: 1200px;
   justify-content: flex-start;
 }
 .titleText {
-	margin: auto;
-	margin-top: 3rem;
+  margin: auto;
+  margin-top: 3rem;
   font-size: 5rem;
 }
 .headerText {
-	margin-top: 1rem;
+  margin-top: 1rem;
   margin-right: 1rem;
   font-size: 3rem;
 }
@@ -50,8 +50,16 @@ $screen-xl-min: 1200px;
   @extend .headerText;
   font-weight: bold;
 }
-.aboutText {
+.medText {
   font-size: 4rem;
+}
+.navText {
+  @extend .medText;
+}
+.navbarContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 .gridContainer {
   display: grid;
@@ -69,7 +77,6 @@ $screen-xl-min: 1200px;
 }
 
 @include sm {
-
 }
 
 @include md {
