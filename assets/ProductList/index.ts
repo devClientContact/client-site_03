@@ -7,13 +7,13 @@ export interface ProductList {
 export const products: ProductList[] = [
   {
     productName: "",
-    description: "",
+    description: "test01",
     imageURL: "",
     price: 0.00,
   },
   {
     productName: "",
-    description: "",
+    description: "test02",
     imageURL: "",
     price: 0.00,
   },
