@@ -75,13 +75,33 @@ $screen-xl-min: 1200px;
   margin: auto;
   justify-items: center;
 }
-.gridItem {
+.gridItemContainer {
   display: grid;
+  grid-template-rows: 3fr 1fr;
   margin: 1rem;
   width: 90%;
   height: 80vh;
   border: solid;
   border-color: red;
+}
+.productImageContainer {
+  margin: 1rem;
+  padding: 1rem;
+  border: solid; 
+  border-color: red;
+}
+.productTextContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.productName {
+  margin: 1.5rem;
+  font-size: 3rem;
+}
+.productPrice {
+  margin: 1.5rem;
+  font-size: 3rem;
+  text-align: right;
 }
 
 @include sm {
