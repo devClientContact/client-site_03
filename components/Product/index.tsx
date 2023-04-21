@@ -13,7 +13,7 @@ const Product = ({ product }: any) => {
            {product.name}
           </div>
           <div className={styles.productPrice}>
-           {product.price}
+            ${product.price.toFixed(2)}
           </div>
         </div>
       </div>
